@@ -6,4 +6,4 @@ export const routingTable = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'stories', component: StoryListComponent}
-]
+];
