@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'पांडुरंग';
   navBarOpen = false;
-  audioUrl = '../assets/audio/VithuMauli_Track.mp3';
 
   public toggleNavBar() {
     this.navBarOpen = !this.navBarOpen;

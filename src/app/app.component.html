@@ -12,7 +12,7 @@
         <a class="nav-link" routerLink="/home">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/aartis">Aarti</a>
+        <a class="nav-link" routerLink="/stories">Stories</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" routerLink="/movies">Watch Movies</a>
@@ -29,36 +29,5 @@
     </h1>
   </div>
 </nav>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-12 text-center">
-      <img class="img-responsive" [src]="'../assets/rakumaipanduranga2.png'" alt="Panduranga">
-    </div>
-    <div class="col-12 text-center">
-      <img class="img-responsive" src="../assets/aarti.gif" alt="Aarti" width="55px" height="75px">
-    </div>
-  </div>
-  <div class="bg-transparent mt-2">
-    <audio [src]="audioUrl" autoplay>
-      <p>If you are reading this, it is because your browser does not support the audio element.</p>
-    </audio>
-  </div>
-  <div class="bird-container bird-container--one">
-    <div class="bird bird--one"></div>
-  </div>
-
-  <div class="bird-container bird-container--two">
-    <div class="bird bird--two"></div>
-  </div>
-
-  <div class="bird-container bird-container--three">
-    <div class="bird bird--three"></div>
-  </div>
-
-  <div class="bird-container bird-container--four">
-    <div class="bird bird--four"></div>
-  </div>
-</div>
-
 
 <router-outlet></router-outlet>
