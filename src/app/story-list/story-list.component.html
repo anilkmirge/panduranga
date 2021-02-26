@@ -1,4 +1,8 @@
 <div>
-  <h1>Stories of Lord Panduranga</h1>
-  <p>Devachi ye vaari ubha kshanabhari</p>
+  <h1>{{title}}</h1>
+  <ul>
+    <li *ngFor="let story of stories">
+      <a [routerLink]="['/stories', story.id]">{{story.title}}</a>
+    </li>
+  </ul>
 </div>

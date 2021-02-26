@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StoryListComponent } from './story-list/story-list.component';
 import { HomeComponent } from './home/home.component';
+import { StoryDetailComponent } from './story-detail/story-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StoryListComponent,
-    HomeComponent
+    HomeComponent,
+    StoryDetailComponent
   ],
   imports: [
     BrowserModule,
